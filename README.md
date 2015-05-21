@@ -11,5 +11,5 @@ Devise has two types of flash messages; notice, and alert. Most of my projects u
 2. Add this line where you want your message to appear: `<%= render('layouts/messages.html.erb') %>`
 
 ## 3. Use `notice:` and `alert:` for your custom flash messages
-* redirect_to root_path, notice: 'This thing was successfully done.'
-* redirect_to root_path, alert: 'Something went wrong.'
+* `redirect_to root_path, notice: 'This thing was successfully done.'`
+* `redirect_to root_path, alert: 'Something went wrong.'`
